@@ -1,0 +1,29 @@
+12:10:07 **** Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:119:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+
+12:10:11 Build Finished (took 3s.757ms)
+

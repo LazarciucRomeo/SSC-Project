@@ -1,0 +1,2375 @@
+15:09:54 **** Build of project proiect_exemplu_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodBT2..."
+"Running Make libs in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodMAXSONAR..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project proiect_exemplu ****
+
+Nothing to build for project proiect_exemplu
+15:10:29 **** Auto Build of configuration Debug for project proiect_exemplu ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_exemplu_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect_exemplu.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_exemplu_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect_exemplu.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect_exemplu.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect_exemplu.elf  |tee "proiect_exemplu.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect_exemplu.elf
+'Finished building: proiect_exemplu.elf.size'
+' '
+15:29:28 **** Auto Build of configuration Debug for project proiect_exemplu ****
+make all 
+make: Nothing to be done for 'all'.
+10:16:04 **** Build of project proiect_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodBT2..."
+"Running Make libs in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodMAXSONAR..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project proiect ****
+
+Nothing to build for project proiect
+
+****  of configuration Debug for project proiect ****
+
+Nothing to build for project proiect
+
+****  of configuration Debug for project proiect ****
+
+Nothing to build for project proiect
+10:20:01 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:20:49 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:22:47 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:24:33 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:26:48 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:77:0: error: unterminated #ifdef
+ #ifdef __MICROBLAZE__
+ 
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:27:10 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:92: undefined reference to `DemoInitialize'
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:92: undefined reference to `DemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:28:06 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:29:50 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:97: undefined reference to `DemoInitialize'
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:97: undefined reference to `DemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:29:57 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3292	  11560	   2d28	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:32:50 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7980	    288	   3300	  11568	   2d30	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:34:46 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:47:60: error: 'CLK_FREQ' undeclared (first use in this function)
+    MAXSONAR_begin(&maxSonarDevice, PMOD_MAXSONAR_BASEADDR, CLK_FREQ);
+                                                            ^~~~~~~~
+../src/main.c:47:60: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoRun':
+../src/main.c:59:8: warning: unused variable 'dist' [-Wunused-variable]
+    u32 dist; /*distanta data de maxsonar*/
+        ^~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:35:23 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:47:60: error: 'CLK_FREQ' undeclared (first use in this function)
+    MAXSONAR_begin(&maxSonarDevice, PMOD_MAXSONAR_BASEADDR, CLK_FREQ);
+                                                            ^~~~~~~~
+../src/main.c:47:60: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoRun':
+../src/main.c:59:8: warning: variable 'dist' set but not used [-Wunused-but-set-variable]
+    u32 dist; /*distanta data de maxsonar*/
+        ^~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:35:48 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:47:60: error: 'CLK_FREQ' undeclared (first use in this function)
+    MAXSONAR_begin(&maxSonarDevice, PMOD_MAXSONAR_BASEADDR, CLK_FREQ);
+                                                            ^~~~~~~~
+../src/main.c:47:60: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoRun':
+../src/main.c:59:8: warning: variable 'dist' set but not used [-Wunused-but-set-variable]
+    u32 dist; /*distanta data de maxsonar*/
+        ^~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+10:36:51 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:64:8: warning: variable 'dist' set but not used [-Wunused-but-set-variable]
+    u32 dist; /*distanta data de maxsonar*/
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13788	    288	   3300	  17376	   43e0	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:37:27 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16828	    292	   3304	  20424	   4fc8	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:38:35 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16884	    292	   3304	  20480	   5000	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:39:24 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16884	    292	   3304	  20480	   5000	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:40:38 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16884	    292	   3304	  20480	   5000	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:42:50 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16884	    292	   3304	  20480	   5000	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:44:12 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:33: undefined reference to `cleanup'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:44:19 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:4: warning: implicit declaration of function 'CleanUp'; did you mean 'cleanup'? [-Wimplicit-function-declaration]
+    CleanUp();
+    ^~~~~~~
+    cleanup
+../src/main.c: At top level:
+../src/main.c:95:6: warning: conflicting types for 'CleanUp'
+ void CleanUp(){
+      ^~~~~~~
+../src/main.c:33:4: note: previous implicit declaration of 'CleanUp' was here
+    CleanUp();
+    ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16884	    292	   3304	  20480	   5000	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:45:41 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:54:4: warning: implicit declaration of function 'MaxSonar_Begin'; did you mean 'MaxSonar_Init'? [-Wimplicit-function-declaration]
+    MaxSonar_Begin();
+    ^~~~~~~~~~~~~~
+    MaxSonar_Init
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoInitialize':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:54: undefined reference to `MaxSonar_Begin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:45:52 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:56:4: warning: implicit declaration of function 'MaxSonar_Begin'; did you mean 'MaxSonar_Init'? [-Wimplicit-function-declaration]
+    MaxSonar_Begin();
+    ^~~~~~~~~~~~~~
+    MaxSonar_Init
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoInitialize':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:56: undefined reference to `MaxSonar_Begin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:45:59 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16996	    292	   3304	  20592	   5070	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:47:52 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16996	    292	   3304	  20592	   5070	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:50:11 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:4: warning: implicit declaration of function 'DemoInitialize' [-Wimplicit-function-declaration]
+    DemoInitialize();
+    ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:103: undefined reference to `DemoInitialize'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:52:18 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16952	    292	   3300	  20544	   5040	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:57:42 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16952	    292	   3300	  20544	   5040	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+14:22:35 **** Clean-only build of configuration Debug for project proiect ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  proiect.elf.size  proiect.elf
+' '
+14:22:36 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:21:1: error: unknown type name 'SysUart'; did you mean 'va_start'?
+ SysUart myUart;
+ ^~~~~~~
+ va_start
+../src/main.c: In function 'MaxSonar_Init':
+../src/main.c:43:34: error: 'PMOD_MAXSONAR_BASEADDR' undeclared (first use in this function)
+  MAXSONAR_begin(&maxSonarDevice, PMOD_MAXSONAR_BASEADDR, CLK_FREQ);
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:43:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:43:58: error: 'CLK_FREQ' undeclared (first use in this function)
+  MAXSONAR_begin(&maxSonarDevice, PMOD_MAXSONAR_BASEADDR, CLK_FREQ);
+                                                          ^~~~~~~~
+../src/main.c: In function 'PmodBt_Init':
+../src/main.c:53:3: error: 'BT2_UART_AXI_CLOCK_FREQ' undeclared (first use in this function)
+   BT2_UART_AXI_CLOCK_FREQ,
+   ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'proiectRun':
+../src/main.c:59:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+14:23:26 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'proiectRun':
+../src/main.c:57:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16952	    292	   3300	  20544	   5040	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+14:26:38 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'proiectRun':
+../src/main.c:57:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:63: undefined reference to `DemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:12:38 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'proiectRun':
+../src/main.c:57:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:63: undefined reference to `projectRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:12:51 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'proiectRun':
+../src/main.c:57:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\proiect\Debug/../src/main.c:62: undefined reference to `projectRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: proiect.elf] Error 1
+10:13:54 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:57:7: warning: unused variable 'buf' [-Wunused-variable]
+    u8 buf[1];
+       ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14852	    292	   3304	  18448	   4810	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+10:14:18 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14852	    292	   3304	  18448	   4810	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:13:08 **** Build of project proiect_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodBT2..."
+"Running Make libs in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodMAXSONAR..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:13:54 **** Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:79:26: error: 'myDevice' undeclared (first use in this function); did you mean 'pmodBtDevice'?
+        n = BT2_RecvData(&myDevice, buf, 1);
+                          ^~~~~~~~
+                          pmodBtDevice
+../src/main.c:79:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:79:36: error: 'buf' undeclared (first use in this function)
+        n = BT2_RecvData(&myDevice, buf, 1);
+                                    ^~~
+../src/main.c:62:8: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+    int n;
+        ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:13:54 **** Build of project proiect_exemplu_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodBT2..."
+"Running Make libs in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodMAXSONAR..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:14:35 **** Clean-only build of configuration Debug for project proiect_exemplu ****
+make clean 
+rm -rf  ./src/PmodBT2.o ./src/main.o  ./src/PmodBT2.d ./src/main.d  proiect_exemplu.elf.size  proiect_exemplu.elf
+' '
+11:14:36 **** Build of configuration Debug for project proiect_exemplu ****
+make all 
+'Building file: ../src/PmodBT2.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/PmodBT2.o" -I../../proiect_exemplu_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/PmodBT2.d" -MT"src/PmodBT2.o" -o "src/PmodBT2.o" "../src/PmodBT2.c"
+'Finished building: ../src/PmodBT2.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_exemplu_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect_exemplu.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_exemplu_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect_exemplu.elf"  ./src/PmodBT2.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect_exemplu.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect_exemplu.elf  |tee "proiect_exemplu.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8300	    288	   3292	  11880	   2e68	proiect_exemplu.elf
+'Finished building: proiect_exemplu.elf.size'
+' '
+11:15:18 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:61:10: error: conflicting types for 'message'
+    char *message[100];
+          ^~~~~~~
+../src/main.c:60:7: note: previous declaration of 'message' was here
+    u8 message[20], buffer[1];
+       ^~~~~~~
+../src/main.c:74:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       message[i] = dist & 0xff000000;
+                  ^
+../src/main.c:76:35: warning: passing argument 2 of 'BT2_SendData' from incompatible pointer type [-Wincompatible-pointer-types]
+       BT2_SendData(&pmodBtDevice, message, 8);
+                                   ^~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char **'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+../src/main.c:78:26: error: 'myDevice' undeclared (first use in this function); did you mean 'pmodBtDevice'?
+        n = BT2_RecvData(&myDevice, buffer, 1);
+                          ^~~~~~~~
+                          pmodBtDevice
+../src/main.c:78:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:81:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:81:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:81:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:81:17: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+         sprintf(message, "%s", buffer);
+                 ^~~~~~~
+../src/main.c:81:17: note: expected 'char *' but argument is of type 'char **'
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:15:31 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:61:10: error: conflicting types for 'message'
+    char *message[100];
+          ^~~~~~~
+../src/main.c:60:7: note: previous declaration of 'message' was here
+    u8 message[20], buffer[1];
+       ^~~~~~~
+../src/main.c:74:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       message[i] = dist & 0xff000000;
+                  ^
+../src/main.c:76:35: warning: passing argument 2 of 'BT2_SendData' from incompatible pointer type [-Wincompatible-pointer-types]
+       BT2_SendData(&pmodBtDevice, message, 8);
+                                   ^~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char **'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+../src/main.c:81:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:81:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:81:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:81:17: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+         sprintf(message, "%s", buffer);
+                 ^~~~~~~
+../src/main.c:81:17: note: expected 'char *' but argument is of type 'char **'
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:15:48 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:61:9: error: conflicting types for 'message'
+    char message[100];
+         ^~~~~~~
+../src/main.c:60:7: note: previous declaration of 'message' was here
+    u8 message[20], buffer[1];
+       ^~~~~~~
+../src/main.c:76:35: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+       BT2_SendData(&pmodBtDevice, message, 8);
+                                   ^~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+../src/main.c:82:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:82:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:82:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:16:15 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:82:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:82:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:82:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:82:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+         sprintf(message, "%s", buffer);
+                 ^~~~~~~
+../src/main.c:82:17: note: expected 'char *' but argument is of type 'u8 * {aka unsigned char *}'
+../src/main.c:61:9: warning: unused variable 'bt2_message' [-Wunused-variable]
+    char bt2_message[100];
+         ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15920	    292	   3300	  19512	   4c38	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:16:25 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:82:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(bt2_message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:82:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:82:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15920	    292	   3300	  19512	   4c38	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:16:58 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:83:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(bt2_message, "%s", buffer);
+         ^~~~~~~
+../src/main.c:83:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:83:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15920	    292	   3300	  19512	   4c38	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:17:08 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:83:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+         sprintf(bt2_message, "%c", buffer);
+         ^~~~~~~
+../src/main.c:83:9: warning: incompatible implicit declaration of built-in function 'sprintf'
+../src/main.c:83:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/main.c:83:32: warning: format '%c' expects argument of type 'int', but argument 3 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+         sprintf(bt2_message, "%c", buffer);
+                               ~^   ~~~~~~
+                               %hhn
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86904	   1456	   3368	  91728	  16650	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:19:35 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:83:29: error: 'str' undeclared (first use in this function); did you mean 'sbr'?
+         size_t len = strlen(str);
+                             ^~~
+                             sbr
+../src/main.c:83:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:84:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+         snprintf(str + len, sizeof str - len, "%c", buffer);
+         ^~~~~~~~
+../src/main.c:84:9: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:84:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:62:9: warning: unused variable 'bt2_message' [-Wunused-variable]
+    char bt2_message[100];
+         ^~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:19:44 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:84:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+         snprintf(str + len, sizeof str - len, "%c", buffer);
+         ^~~~~~~~
+../src/main.c:84:9: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:84:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:84:18: error: 'str' undeclared (first use in this function); did you mean 'sbr'?
+         snprintf(str + len, sizeof str - len, "%c", buffer);
+                  ^~~
+                  sbr
+../src/main.c:84:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:19:48 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:84:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+         snprintf(str + len, sizeof str - len, "%c", buffer);
+         ^~~~~~~~
+../src/main.c:84:9: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:84:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:84:18: error: 'str' undeclared (first use in this function); did you mean 'sbr'?
+         snprintf(str + len, sizeof str - len, "%c", buffer);
+                  ^~~
+                  sbr
+../src/main.c:84:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:20:08 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:84:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+         snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+         ^~~~~~~~
+../src/main.c:84:9: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:84:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:84:65: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+         snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                                ~^   ~~~~~~
+                                                                %hhn
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87152	   1456	   3368	  91976	  16748	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:20:33 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:62:5: error: 'n' undeclared (first use in this function)
+     n = BT2_RecvData(&pmodBtDevice, buffer, 1);
+     ^
+../src/main.c:62:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:62:37: error: 'buffer' undeclared (first use in this function); did you mean 'mffsr'?
+     n = BT2_RecvData(&pmodBtDevice, buffer, 1);
+                                     ^~~~~~
+                                     mffsr
+../src/main.c:65:26: error: 'bt2_message' undeclared (first use in this function)
+      size_t len = strlen(bt2_message);
+                          ^~~~~~~~~~~
+../src/main.c:66:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+      ^~~~~~~~
+../src/main.c:66:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:66:6: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c: In function 'DemoRun':
+../src/main.c:74:8: warning: unused variable 'n' [-Wunused-variable]
+    int n;
+        ^
+../src/main.c:72:9: warning: unused variable 'bt2_message' [-Wunused-variable]
+    char bt2_message[100] = "";
+         ^~~~~~~~~~~
+../src/main.c:71:20: warning: unused variable 'buffer' [-Wunused-variable]
+    u8 message[20], buffer[1];
+                    ^~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:20:46 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:65:5: error: 'n' undeclared (first use in this function)
+     n = BT2_RecvData(&pmodBtDevice, buffer, 1);
+     ^
+../src/main.c:65:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:69:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+      ^~~~~~~~
+../src/main.c:69:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:69:6: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:69:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+../src/main.c: In function 'DemoRun':
+../src/main.c:76:8: warning: unused variable 'n' [-Wunused-variable]
+    int n;
+        ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:20:56 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:70:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+      ^~~~~~~~
+../src/main.c:70:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:70:6: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:70:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23636	   1332	   3360	  28328	   6ea8	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:21:00 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:70:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+      ^~~~~~~~
+../src/main.c:70:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:70:6: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:70:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23636	   1332	   3360	  28328	   6ea8	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:22:47 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:71:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+      ^~~~~~~~
+../src/main.c:71:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../src/main.c:71:6: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../src/main.c:71:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+../src/main.c:75:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:78:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23680	   1332	   3356	  28368	   6ed0	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:23:12 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:72:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+../src/main.c:76:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:79:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23680	   1332	   3356	  28368	   6ed0	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:23:45 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:78:62: warning: format '%c' expects argument of type 'int', but argument 4 has type 'u8 * {aka unsigned char *}' [-Wformat=]
+      snprintf(bt2_message + len, sizeof bt2_message - len, "%c", buffer);
+                                                             ~^   ~~~~~~
+                                                             %hhn
+../src/main.c:82:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23680	   1332	   3356	  28368	   6ed0	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:24:09 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:64:6: error: conflicting types for 'append'
+ void append(char* dest, char source) {
+      ^~~~~~
+../src/main.c:64:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ void append(char* dest, char source) {
+ ^~~~
+../src/main.c:37:6: note: previous declaration of 'append' was here
+ void append();
+      ^~~~~~
+../src/main.c: In function 'append':
+../src/main.c:65:26: error: 's' undeclared (first use in this function); did you mean 's8'?
+         int len = strlen(s);
+                          ^
+                          s8
+../src/main.c:65:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:18: error: 'c' undeclared (first use in this function)
+         s[len] = c;
+                  ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:79:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:64:6: note: expected 'char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(char* dest, char source) {
+      ^~~~~~
+../src/main.c:83:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:78:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:86:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:24:36 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:26: error: 's' undeclared (first use in this function); did you mean 's8'?
+         int len = strlen(s);
+                          ^
+                          s8
+../src/main.c:64:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:65:18: error: 'c' undeclared (first use in this function)
+         s[len] = c;
+                  ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:78:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(char* dest, char source) {
+      ^~~~~~
+../src/main.c:82:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:77:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:24:49 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:26: error: 's' undeclared (first use in this function); did you mean 's8'?
+         int len = strlen(s);
+                          ^
+                          s8
+../src/main.c:64:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:65:18: error: 'c' undeclared (first use in this function)
+         s[len] = c;
+                  ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:78:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:78:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:82:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:77:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:25:20 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:9: error: 's' undeclared (first use in this function); did you mean 's8'?
+         s[strlen(dest)] = source;
+         ^
+         s8
+../src/main.c:64:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:64:18: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         s[strlen(dest)] = source;
+                  ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c:65:18: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         s[strlen(dest)+1] = '\0';
+                  ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:77:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:77:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:76:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:25:38 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:14: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  dest[strlen(dest)] = source;
+              ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c:65:14: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  dest[strlen(dest)+1] = '\0';
+              ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:77:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:77:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:76:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:25:59 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:26: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         int len = strlen(dest);
+                          ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:78:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:78:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:82:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:77:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:26:06 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:19: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  int len = strlen(dest);
+                   ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:78:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:78:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:82:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:77:13: warning: unused variable 'len' [-Wunused-variable]
+      size_t len = strlen(bt2_message);
+             ^~~
+../src/main.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:26:17 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:64:22: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  size_t len = strlen(dest);
+                      ^~~~
+In file included from d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\ctype.h:4:0,
+                 from ../../proiect_bsp/microblaze_0/include/xil_printf.h:8,
+                 from ../../proiect_bsp/microblaze_0/include/xil_io.h:61,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550_l.h:70,
+                 from ../../proiect_bsp/microblaze_0/include/xuartns550.h:183,
+                 from ../../proiect_bsp/microblaze_0/include/PmodBT2.h:29,
+                 from ../src/main.c:1:
+d:\xilinx\sdk\2018.3\gnu\microblaze\nt\microblaze-xilinx-elf\include\string.h:33:9: note: expected 'const char *' but argument is of type 'unsigned char *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:77:13: warning: pointer targets in passing argument 1 of 'append' differ in signedness [-Wpointer-sign]
+      append(bt2_message, buffer);
+             ^~~~~~~~~~~
+../src/main.c:63:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:77:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(unsigned char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:26:54 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:77:26: warning: passing argument 2 of 'append' makes integer from pointer without a cast [-Wint-conversion]
+      append(bt2_message, buffer);
+                          ^~~~~~
+../src/main.c:63:6: note: expected 'unsigned char' but argument is of type 'u8 * {aka unsigned char *}'
+ void append(char* dest, unsigned char source) {
+      ^~~~~~
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:27:02 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'append':
+../src/main.c:65:12: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  dest[len] = source;
+            ^
+../src/main.c: In function 'ReadPmod':
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:27:20 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:81:34: warning: comparison between pointer and integer
+      else if (sizeof(bt2_message > sizeof(USER_ROMEO)))
+                                  ^
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:27:57 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ReadPmod':
+../src/main.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14896	    292	   3300	  18488	   4838	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:28:10 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:29:03 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:29:06 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:29:29 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:90:8: warning: unused variable 'response' [-Wunused-variable]
+  char* response = ReadPmod();
+        ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:30:15 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:93:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:30:22 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:93:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:31:05 **** Incremental Build of configuration Debug for project proiect ****
+make all 
+make: Nothing to be done for 'all'.
+11:31:06 **** Incremental Build of configuration Debug for project proiect_exemplu ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:32 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:96:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:32:35 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:96:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:32:40 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:97:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:32:51 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:97:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:32:57 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:97:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:33:04 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:97:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:33:16 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:97:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:33:37 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:98:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:37:32 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:113:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:37:43 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:113:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+11:38:31 **** Auto Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:119:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+12:09:40 **** Clean-only build of project proiect_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_8/src -s clean 
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [Makefile:26: clean] Error 1
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s clean 
+make: *** [Makefile:33: microblaze_0/libsrc/PmodBT2_v1_0/src/make.clean] Error 2
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [Makefile:26: clean] Error 1
+make: *** [Makefile:33: microblaze_0/libsrc/PmodMAXSONAR_v1_0/src/make.clean] Error 2
+make -C microblaze_0/libsrc/standalone_v6_8/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+make: Target 'clean' not remade because of errors.
+12:09:43 **** Clean-only build of project proiect_exemplu_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_8/src -s clean 
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [Makefile:26: clean] Error 1
+make: *** [Makefile:33: microblaze_0/libsrc/PmodBT2_v1_0/src/make.clean] Error 2
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make -C microblaze_0/libsrc/standalone_v6_8/src -s clean 
+make[1]: *** [Makefile:26: clean] Error 1
+make: *** [Makefile:33: microblaze_0/libsrc/PmodMAXSONAR_v1_0/src/make.clean] Error 2
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+make: Target 'clean' not remade because of errors.
+12:09:45 **** Clean-only build of configuration Debug for project proiect ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  proiect.elf.size  proiect.elf
+' '
+12:09:45 **** Clean-only build of configuration Debug for project proiect_exemplu ****
+make clean 
+rm -rf  ./src/PmodBT2.o ./src/main.o  ./src/PmodBT2.d ./src/main.d  proiect_exemplu.elf.size  proiect_exemplu.elf
+' '
+12:09:46 **** Build of project proiect_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/PmodBT2_v1_0/src"
+make -C microblaze_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodBT2..."
+"Running Make libs in microblaze_0/libsrc/PmodMAXSONAR_v1_0/src"
+make -C microblaze_0/libsrc/PmodMAXSONAR_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling PmodMAXSONAR..."
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:10:07 **** Build of configuration Debug for project proiect ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../proiect_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SignalBt2':
+../src/main.c:119:33: warning: pointer targets in passing argument 2 of 'BT2_SendData' differ in signedness [-Wpointer-sign]
+     BT2_SendData(&pmodBtDevice, response, sizeof(response));
+                                 ^~~~~~~~
+In file included from ../src/main.c:1:0:
+../../proiect_bsp/microblaze_0/include/PmodBT2.h:44:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int BT2_SendData(PmodBT2 *InstancePtr, u8 *Data, int nData);
+     ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: proiect.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../proiect_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "proiect.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: proiect.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size proiect.elf  |tee "proiect.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14900	    292	   3304	  18496	   4840	proiect.elf
+'Finished building: proiect.elf.size'
+' '
+12:10:11 **** Build of project proiect_exemplu_bsp ****

@@ -1,0 +1,347 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of design_1_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_EXT_RESET_HIGH' from '0' to '1' has been ignored for IP 'design_1_rst_clk_wiz_1_100M_0'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 -user_name design_1_rst_clk_wiz_1_100M_0
+set_property -dict "\
+  CONFIG.C_AUX_RESET_HIGH {0} \
+  CONFIG.C_AUX_RST_WIDTH {4} \
+  CONFIG.C_EXT_RESET_HIGH {1} \
+  CONFIG.C_EXT_RST_WIDTH {4} \
+  CONFIG.C_NUM_BUS_RST {1} \
+  CONFIG.C_NUM_INTERCONNECT_ARESETN {1} \
+  CONFIG.C_NUM_PERP_ARESETN {1} \
+  CONFIG.C_NUM_PERP_RST {1} \
+  CONFIG.Component_Name {design_1_rst_clk_wiz_1_100M_0} \
+  CONFIG.RESET_BOARD_INTERFACE {reset} \
+  CONFIG.USE_BOARD_FLOW {true} \
+  CONFIG.aux_reset.INSERT_VIP {0} \
+  CONFIG.aux_reset.POLARITY {ACTIVE_LOW} \
+  CONFIG.bus_struct_reset.INSERT_VIP {0} \
+  CONFIG.bus_struct_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.bus_struct_reset.TYPE {INTERCONNECT} \
+  CONFIG.clock.ASSOCIATED_BUSIF {} \
+  CONFIG.clock.ASSOCIATED_RESET {mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset} \
+  CONFIG.clock.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.clock.FREQ_HZ {100000000} \
+  CONFIG.clock.INSERT_VIP {0} \
+  CONFIG.clock.PHASE {0.0} \
+  CONFIG.dbg_reset.INSERT_VIP {0} \
+  CONFIG.dbg_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.ext_reset.BOARD.ASSOCIATED_PARAM {RESET_BOARD_INTERFACE} \
+  CONFIG.ext_reset.INSERT_VIP {0} \
+  CONFIG.ext_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.interconnect_low_rst.INSERT_VIP {0} \
+  CONFIG.interconnect_low_rst.POLARITY {ACTIVE_LOW} \
+  CONFIG.interconnect_low_rst.TYPE {INTERCONNECT} \
+  CONFIG.mb_rst.INSERT_VIP {0} \
+  CONFIG.mb_rst.POLARITY {ACTIVE_HIGH} \
+  CONFIG.mb_rst.TYPE {PROCESSOR} \
+  CONFIG.peripheral_high_rst.INSERT_VIP {0} \
+  CONFIG.peripheral_high_rst.POLARITY {ACTIVE_HIGH} \
+  CONFIG.peripheral_high_rst.TYPE {PERIPHERAL} \
+  CONFIG.peripheral_low_rst.INSERT_VIP {0} \
+  CONFIG.peripheral_low_rst.POLARITY {ACTIVE_LOW} \
+  CONFIG.peripheral_low_rst.TYPE {PERIPHERAL} " [get_ips design_1_rst_clk_wiz_1_100M_0]
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 19)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_0 (xilinx.com:ip:microblaze:11.0) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_mdm_1_0 (xilinx.com:ip:mdm:3.2 (Rev. 15)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_lmb_bram_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 15)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 15)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 22)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PmodMAXSONAR_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_PmodMAXSONAR_0_0 (digilentinc.com:IP:PmodMAXSONAR:1.0 (Rev. 20)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jan  8 11:59:50 2021
+| Host         : DESKTOP-7PI6K42 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PmodBT2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_PmodBT2_0_0 (digilentinc.com:IP:PmodBT2:1.0 (Rev. 10)) to Vivado generation flows.
+

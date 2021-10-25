@@ -1,0 +1,73 @@
+15:09:09 INFO  : Registering command handlers for SDK TCF services
+15:09:10 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+15:09:14 INFO  : XSCT server has started successfully.
+15:09:14 INFO  : Successfully done setting XSCT server connection channel  
+15:09:16 INFO  : Successfully done setting SDK workspace  
+15:09:16 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+10:13:56 INFO  : Registering command handlers for SDK TCF services
+10:13:57 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+10:14:05 INFO  : XSCT server has started successfully.
+10:14:05 INFO  : Successfully done setting XSCT server connection channel  
+10:14:09 INFO  : Successfully done setting SDK workspace  
+10:14:09 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+10:14:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:21:40 INFO  : Registering command handlers for SDK TCF services
+14:21:41 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+14:21:45 INFO  : XSCT server has started successfully.
+14:21:45 INFO  : Successfully done setting XSCT server connection channel  
+14:21:48 INFO  : Successfully done setting SDK workspace  
+14:21:48 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+14:21:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:10:00 INFO  : Registering command handlers for SDK TCF services
+10:10:01 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+10:10:06 INFO  : XSCT server has started successfully.
+10:10:07 INFO  : Successfully done setting XSCT server connection channel  
+10:10:07 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+10:10:08 INFO  : Successfully done setting SDK workspace  
+10:10:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:49:45 INFO  : Registering command handlers for SDK TCF services
+15:49:46 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+15:49:50 INFO  : XSCT server has started successfully.
+15:49:50 INFO  : Successfully done setting XSCT server connection channel  
+15:49:51 INFO  : Successfully done setting SDK workspace  
+15:49:51 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+15:49:51 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:04:25 INFO  : Registering command handlers for SDK TCF services
+11:04:27 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+11:04:32 INFO  : XSCT server has started successfully.
+11:04:32 INFO  : Successfully done setting XSCT server connection channel  
+11:04:33 INFO  : Successfully done setting SDK workspace  
+11:04:33 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+11:04:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:09:23 INFO  : Registering command handlers for SDK TCF services
+12:09:24 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+12:09:28 INFO  : XSCT server has started successfully.
+12:09:29 INFO  : Successfully done setting XSCT server connection channel  
+12:09:29 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+12:09:29 INFO  : Successfully done setting SDK workspace  
+12:09:29 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:09:32 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1610100509390,  Project:1606223303287
+12:09:32 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+12:09:32 INFO  : Copied contents of D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+12:09:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:09:36 INFO  : 
+12:09:38 INFO  : 
+12:09:39 INFO  : Updating hardware inferred compiler options for proiect.
+12:09:40 INFO  : Updating hardware inferred compiler options for proiect_exemplu.
+12:09:40 INFO  : Clearing existing target manager status.
+12:09:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:09:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:34:16 INFO  : Registering command handlers for SDK TCF services
+22:34:17 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+22:34:22 INFO  : XSCT server has started successfully.
+22:34:22 INFO  : Successfully done setting XSCT server connection channel  
+22:34:24 INFO  : Successfully done setting SDK workspace  
+22:34:24 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+22:34:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:50:53 INFO  : Registering command handlers for SDK TCF services
+12:50:54 INFO  : Launching XSCT server: xsct.bat -interactive D:\UTC\AN3\SEM1\SSC\Proiect\proiect\proiect.sdk\temp_xsdb_launch_script.tcl
+12:50:59 INFO  : XSCT server has started successfully.
+12:51:03 INFO  : Successfully done setting XSCT server connection channel  
+12:51:03 INFO  : Processing command line option -hwspec D:/UTC/AN3/SEM1/SSC/Proiect/proiect/proiect.sdk/design_1_wrapper.hdf.
+12:51:03 INFO  : Successfully done setting SDK workspace  
+12:51:03 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
